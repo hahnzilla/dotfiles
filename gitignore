@@ -1,0 +1,29 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+config/database.yml
+.rvmrc
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+tmp
+*.DS_Store
+*.swp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
