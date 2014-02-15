@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/davidhahn/.rvm/gems/ruby-1.9.3-p392/gems/flatui-rails-0.0.4'
+let g:netrw_dirhist_2='/Users/davidhahn/.rvm/gems/ruby-1.9.3-p392/gems/flatui-rails-0.0.4/vendor'
+let g:netrw_dirhist_3='/Users/davidhahn/.rvm/gems/ruby-1.9.3-p392/gems/flatui-rails-0.0.4/vendor/assets'
+let g:netrw_dirhist_4='/Users/davidhahn/.rvm/gems/ruby-1.9.3-p392/gems/flatui-rails-0.0.4/vendor/assets/stylesheets'
+let g:netrw_dirhist_5='/Users/davidhahn/.rvm/gems/ruby-1.9.3-p392/gems/flatui-rails-0.0.4/vendor/assets/stylesheets/flat-ui'
+let g:netrw_dirhist_6='/Users/davidhahn/Dev/gem-projects/texticle'
