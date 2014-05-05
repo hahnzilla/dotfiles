@@ -21,11 +21,14 @@ Bundle 'scrooloose/syntastic'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'danro/rename.vim'
 Bundle 'vim-scripts/Rubytest.vim'
+Bundle 'uguu-org/vim-matrix-screensaver'
+
 
 au BufNewFile,BufRead *.js set filetype=javascript
 au BufNewFile,BufRead *.coffee set filetype=coffee
 au BufNewFile,BufRead *.rake set filetype=ruby
 au BufNewFile,BufRead *.thor set filetype=ruby
+au BufNewFile,BufRead *.god set filetype=ruby
 au BufNewFile,BufRead *.rb set filetype=ruby
 au BufNewFile,BufRead Gemfile set filetype=ruby
 au BufNewFile,BufRead Guardfile set filetype=ruby
@@ -51,14 +54,16 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 
 let mapleader = ","
 
-map <Leader>nn :split<cr>:Nyancat<cr>
+" map <Leader>nn :split<cr>:Nyancat<cr>
+map <Leader>nn :Nyancat<cr>
+map <Leader>mm :Matrix<cr>
 map <Leader>x :x<cr>
 map <Leader>w :w<cr>
 map <Leader>q :q<cr>
 map <Leader>qa :qa<cr>
 map <Leader>p :set paste<cr>
 map <Leader>pn :set nopaste<cr>
-map <Leader>r :w<cr>:! ruby<cr>
-map <Leader>s :w<cr>:! rspec<cr>
+map <Leader>r :w ! ruby<cr>
+map <Leader>s :w ! rspec<cr>
 
-vmap <C-c> y:call system("pbcopy", getreg("\""))<CR>
+vmap <C-c> y:call system("pbcopy", getreg("\""))<cr>
